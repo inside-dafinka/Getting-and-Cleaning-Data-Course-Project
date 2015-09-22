@@ -13,9 +13,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## Project files
 
-###run_analysis.R
-###tidy.txt
-###CodeBook.md
+* run_analysis.R
+* tidy.txt
+* CodeBook.md
 
 The analysis of the data is done in the run_analysis.R script. It performs the following:
 
