@@ -19,14 +19,14 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 - The analysis of the data is done in the run_analysis.R script. It performs the following:
 
-	1. Downloads and extracts the .ZIP archive with the datasetif it does not already exist in the working directory. 
-	2. Loads the training and test data sets.
-	3. Merges the training and test data sets into one.
-	4. Extracts only the measurements for mean and standard deviation for each measurement.
-	5. Sets descriptive activity names to name the activities in the data set.
-	6. Appropriately labels the data set with descriptive variable names. 
-	7. From the dataset in step 6. creates independent tidy data set with the average of each variable for each activity and each subject.
-	8. Saves the aggregated data in tidy.txt file.
+1. Downloads and extracts the .ZIP archive with the datasetif it does not already exist in the working directory. 
+2. Loads the training and test data sets.
+3. Merges the training and test data sets into one.
+4. Extracts only the measurements for mean and standard deviation for each measurement.
+5. Sets descriptive activity names to name the activities in the data set.
+6. Appropriately labels the data set with descriptive variable names. 
+7. From the dataset in step 6. creates independent tidy data set with the average of each variable for each activity and each subject.
+8. Saves the aggregated data in tidy.txt file.
 
 - The tidy.txt file contains the aggregated data from step 8.
 - The CodeBook.md file describes the variables and the data. 
