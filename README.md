@@ -1,8 +1,5 @@
-==========================================================================
-Getting and Cleaning Data Course Project - Data Science Specialization
-
+##Getting and Cleaning Data Course Project - Data Science Specialization
 Dafinka Kaleshkoska (2015)
-==========================================================================
 
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
@@ -20,8 +17,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 - tidy.txt
 - CodeBook.md
 
-
-The analysis of the data is done in the run_analysis.R script. It performs the following:
+- The analysis of the data is done in the run_analysis.R script. It performs the following:
 
 	1. Downloads and extracts the .ZIP archive with the datasetif it does not already exist in the working directory. 
 	2. Loads the training and test data sets.
@@ -32,6 +28,6 @@ The analysis of the data is done in the run_analysis.R script. It performs the f
 	7. From the dataset in step 6. creates independent tidy data set with the average of each variable for each activity and each subject.
 	8. Saves the aggregated data in tidy.txt file.
 
-The tidy.txt file contains the aggregated data from step 8.
-The CodeBook.md file describes the variables and the data. 
+- The tidy.txt file contains the aggregated data from step 8.
+- The CodeBook.md file describes the variables and the data. 
 
